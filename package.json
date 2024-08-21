@@ -34,7 +34,7 @@
   "dependencies": {
     "ajv": "6.12.0",
     "autoprefixer": "^9.1.0",
-    "axios": "^0.21.1",
+    "axios": "^0.21.4",
     "babel-cli": "^6.26.0",
     "babel-core": "^6.26.3",
     "babel-eslint": "^7.2.3",
@@ -46,6 +46,7 @@
     "bootstrap": "^3.4.1",
     "clean-webpack-plugin": "^0.1.16",
     "copy-webpack-plugin": "^4.5.2",
+    "cors": "^2.8.5",
     "cross-env": "^5.2.0",
     "css-loader": "^1.0.0",
     "eslint": "^4.2.0",
