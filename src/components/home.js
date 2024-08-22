@@ -10,12 +10,11 @@ class Home extends Component {
         this.props.history.push('/results');
       });
   }
-
   render() {
     return (
       <div className="home">
         <Logo/>
-        <SearchBar onSubmit={(query) => this.handleSearchBarSubmit(query)}/>
+        <SearchBar page="home" onSubmit={(query) => this.handleSearchBarSubmit(query)}/>
         <RecentPosts/>
       </div>
     );
