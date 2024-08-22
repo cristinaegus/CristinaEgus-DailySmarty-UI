@@ -1,54 +1,48 @@
-.post-topic {
-    margin: 0 4px;
-}
-
 body {
     font-family: 'Lato', sans-serif;
 }
 
 .app-wrapper {
     display: grid;
+
     justify-content: center;
-}
-
-.home {
-    height: 100vh;
-
-    width: 66vw;
-
-    display: grid;
-
-    align-content: space-around;
-
-    // justify-items: stretch;
-
-    // grid-template-rows: 1fr 2fr 1fr;
 
 }
+
+
+
+
+
+
+
+
+
+
 
 
 
 .logo-main,
+
 .recent-posts
+
 {
     display: grid;
-
     justify-items: center;
-
 }
 
-
-
-
 ul {
-
     margin: 0;
-
     padding: 0;
 
     list-style-type: none;
 
 }
+
+
+
+
+
+
 
 
 
@@ -62,6 +56,13 @@ $color-blue-one: #0079FF;
 
 
 
+@import './mixins';
+
 @import './searchBar';
 
 @import './recentPosts';
+
+
+@import './home';
+
+@import './results';
